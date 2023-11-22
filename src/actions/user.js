@@ -11,3 +11,9 @@ export const deleteUserAction = id => {
       payload: { id }
   }
 }
+
+export const deleteAllUsers = () => {
+  return {
+    type: 'DELETE_ALL_USERS',
+  }
+}
